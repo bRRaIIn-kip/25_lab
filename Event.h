@@ -213,3 +213,15 @@ public:
         exit(0);
     }
 };
+class dialog: public Group
+{
+public:
+    void Start()
+    {
+        EventManager eventManager;
+        Group group;
+
+        eventManager.setEventListener(&group);
+        eventManager.processCommands();
+    }
+};
