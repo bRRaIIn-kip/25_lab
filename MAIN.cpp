@@ -3,5 +3,4 @@
 int main() {
     dialog name;
     name.Start();
-    return 0;
 }
