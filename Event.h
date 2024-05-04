@@ -145,7 +145,7 @@ public:
         int age;
         float wages;
         char* NAME[5] = { (char*)"Dima", (char*)"Mark", (char*)"Valera", (char*)"Denis", (char*)"Rita" };
-        char* POS[5] = { (char*)"Web_disayner", (char*)"Front_programmer", (char*)"Back_programmer", (char*)"Fulpack_programmer", (char*)"Module_programmer" };
+        char* POS[5] = { (char*)"Web_designer", (char*)"Front_programmer", (char*)"Back_programmer", (char*)"Fulpack_programmer", (char*)"Module_programmer" };
         for (int i = 0; i < numElements; ++i)
         {
             age = rand() % (40 - 18 + 1) + 18;
